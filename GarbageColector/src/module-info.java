@@ -1,0 +1,9 @@
+/**
+ * 
+ */
+/**
+ * @author gruiz
+ *
+ */
+module garbageColector {
+}

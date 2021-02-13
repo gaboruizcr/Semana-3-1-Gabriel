@@ -41,6 +41,13 @@ public class Bicicleta {
 		this.color = color;
 	}
 	
+
+	/**
+	 * Este metodo sirve para que el bicicleta ruede
+	 * @param persona
+	 */
+	public void rodar(String persona) {}
+	
 	
 	@Override
 	public String toString() {

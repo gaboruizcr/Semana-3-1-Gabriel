@@ -64,6 +64,16 @@ public class Barco {
 		this.color = color;
 		this.nombre = nombre;
 	}
+	
+	/**
+	 * Este metodo sirve para que el barco flote
+	 */
+	public void flote() {}
+	
+	/**
+	 * Este metodo sirve para que el barco ancle
+	 */
+	public void anclaje() {}
 
 	@Override
 	public String toString() {

@@ -56,6 +56,18 @@ public class Carro {
 		this.año = año;
 		this.modelo = modelo;
 	}
+	
+	/**
+	 * Este metodo sirve para que el carro pite
+	 */
+	public void pite() {}
+	
+	/**
+	 * Este metodo sirve para que el carro se mueva
+	 * @param gasolina
+	 */
+	public void mover(String gasolina) {}
+	
 	@Override
 	public String toString() {
 		return "Carro [marca = " + marca + ", año = " + año + ", modelo = " + modelo + "]";

@@ -56,6 +56,12 @@ public class Tren {
 		this.tipo = tipo;
 	}
 	
+	/**
+	 * Este metodo sirve para que el tren se mueva
+	 * @param carbon
+	 */
+	public void tren(String carbon) {}
+	
 	@Override
 	public String toString() {
 		return "Tren [cantBagones = " + cantBagones + ", año = " + año + ", tipo = " + tipo + "]";

@@ -57,6 +57,18 @@ public class Avion {
 		this.filas = filas;
 		this.aerolinea = aerolinea;
 	}
+
+	/**
+	 * Este metodo sirve para que el avion vuele
+	 * @param porcentajeGasolina
+	 */
+	public void volar(int porcentajeGasolina) {}
+	
+	/**
+	 * Este metodo sirve para que el avion aterrice
+	 */
+	public void aterrizar() {}
+	
 	@Override
 	public String toString() {
 		return "Avion [tipo = " + tipo + ", filas = " + filas + ", aerolinea = " + aerolinea + "]";
